@@ -9,8 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Signup"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".openfromfragment3"></activity>
+        <activity android:name=".openfromfragment2" />
+        <activity android:name=".openfromfragment1" />
+        <activity android:name=".openfromfragment" />
+        <activity android:name=".FromCardView" />
+        <activity android:name=".AboutApp" />
+        <activity android:name=".Share" />
+        <activity android:name=".Settings" />
+        <activity android:name=".Logout" />
+        <activity android:name=".Recommendation" />
+        <activity android:name=".Bookmark" />
+        <activity android:name=".Search" />
+        <activity android:name=".Topics" />
+        <activity android:name=".Latest" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".Signup" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
